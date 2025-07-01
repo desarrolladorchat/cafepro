@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Equipo - CaféPro</title>
+    <link rel="icon" type="image/png" href="cafe.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+    <header class="bg-dark shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-warning" href="index.html">
+                    <i class="bi bi-cup-hot-fill me-2"></i>CaféPro
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="bi bi-house-fill me-1"></i>Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="team.html">
+                                <i class="bi bi-people-fill me-1"></i>Equipo
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="customers.html">
+                                <i class="bi bi-chat-quote-fill me-1"></i>Clientes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <section class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">
+                <i class="bi bi-people-fill me-3"></i>Nuestro Equipo de Expertos
+            </h1>
+            <p class="lead">Conoce a los profesionales que hacen posible la magia del café perfecto</p>
+        </div>
+    </section>
+    </header>
+
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-lg border-0 team-card">
+                    <div class="card-body text-center p-4">
+                        <div class="position-relative mb-3">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;" alt="María González">
+                            <div class="position-absolute bottom-0 end-0 bg-warning rounded-circle p-2">
+                                <i class="bi bi-cup-hot text-dark"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary fw-bold">María González</h5>
+                        <p class="text-muted small mb-3">Barista Principal y Experta en Tueste</p>
+                        <p class="card-text small">Con más de 8 años de experiencia, María supervisa la calidad de nuestros granos y entrena a nuestro equipo en las mejores técnicas de preparación de café.</p>
+                        <div class="social-links mb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-1">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm me-1">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#mariaModal">
+                            <i class="bi bi-person-plus me-1"></i>Conocer Más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-lg border-0 team-card">
+                    <div class="card-body text-center p-4">
+                        <div class="position-relative mb-3">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;" alt="Carlos Mendoza">
+                            <div class="position-absolute bottom-0 end-0 bg-success rounded-circle p-2">
+                                <i class="bi bi-gear-fill text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary fw-bold">Carlos Mendoza</h5>
+                        <p class="text-muted small mb-3">Especialista en Máquinas de Café</p>
+                        <p class="card-text small">Carlos es nuestro experto en reparación y mantenimiento de cafeteras espresso, garantizando que nuestros equipos siempre funcionen perfectamente.</p>
+                        <div class="social-links mb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-1">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm me-1">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#carlosModal">
+                            <i class="bi bi-person-plus me-1"></i>Conocer Más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-lg border-0 team-card">
+                    <div class="card-body text-center p-4">
+                        <div class="position-relative mb-3">
+                            <img src="https://randomuser.me/api/portraits/men/65.jpg" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;" alt="Roberto Silva">
+                            <div class="position-absolute bottom-0 end-0 bg-info rounded-circle p-2">
+                                <i class="bi bi-briefcase-fill text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary fw-bold">Roberto Silva</h5>
+                        <p class="text-muted small mb-3">Gerente de Ventas</p>
+                        <p class="card-text small">Roberto se encarga de conectar con nuestros clientes corporativos y cafeterías, asegurando que tengan el mejor equipamiento para sus necesidades.</p>
+                        <div class="social-links mb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-1">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm me-1">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#robertoModal">
+                            <i class="bi bi-person-plus me-1"></i>Conocer Más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-lg border-0 team-card">
+                    <div class="card-body text-center p-4">
+                        <div class="position-relative mb-3">
+                            <img src="https://randomuser.me/api/portraits/men/43.jpg" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;" alt="Diego Ramírez">
+                            <div class="position-absolute bottom-0 end-0 bg-danger rounded-circle p-2">
+                                <i class="bi bi-globe text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary fw-bold">Diego Ramírez</h5>
+                        <p class="text-muted small mb-3">Sommelier de Café</p>
+                        <p class="card-text small">Diego viaja por el mundo seleccionando los mejores granos de café de origen único, asegurando que solo trabajemos con productores sostenibles.</p>
+                        <div class="social-links mb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-1">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm me-1">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#diegoModal">
+                            <i class="bi bi-person-plus me-1"></i>Conocer Más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-lg border-0 team-card">
+                    <div class="card-body text-center p-4">
+                        <div class="position-relative mb-3">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;" alt="Ana Torres">
+                            <div class="position-absolute bottom-0 end-0 bg-purple rounded-circle p-2" style="background-color: #6f42c1 !important;">
+                                <i class="bi bi-megaphone text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary fw-bold">Ana Torres</h5>
+                        <p class="text-muted small mb-3">Jefa de Marketing</p>
+                        <p class="card-text small">Ana desarrolla estrategias para conectar con los amantes del café y coordina eventos de degustación y capacitaciones para nuestros clientes.</p>
+                        <div class="social-links mb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-1">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm me-1">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#anaModal">
+                            <i class="bi bi-person-plus me-1"></i>Conocer Más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-lg border-0 team-card">
+                    <div class="card-body text-center p-4">
+                        <div class="position-relative mb-3">
+                            <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;" alt="Laura Pérez">
+                            <div class="position-absolute bottom-0 end-0 bg-secondary rounded-circle p-2">
+                                <i class="bi bi-truck text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title text-primary fw-bold">Laura Pérez</h5>
+                        <p class="text-muted small mb-3">Directora de Operaciones</p>
+                        <p class="card-text small">Laura asegura que nuestros productos lleguen en perfectas condiciones a nuestros clientes, coordinando la cadena de suministro.</p>
+                        <div class="social-links mb-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-1">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm me-1">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#lauraModal">
+                            <i class="bi bi-person-plus me-1"></i>Conocer Más
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card bg-primary text-white text-center shadow">
+                    <div class="card-body py-5">
+                        <h3 class="fw-bold mb-3">¿Quieres unirte a nuestro equipo?</h3>
+                        <p class="lead mb-4">Estamos buscando personas apasionadas por el café que quieran formar parte de CaféPro</p>
+                        <a href="#" class="btn btn-warning btn-lg">
+                            <i class="bi bi-envelope-fill me-2"></i>Enviar CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-warning mb-3">
+                        <i class="bi bi-cup-hot-fill me-2"></i>CaféPro
+                    </h5>
+                    <p class="mb-0">Expertos en café premium desde 2010</p>
+                </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="index.html">
+                                    <i class="bi bi-house-fill me-1"></i>Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="team.html">
+                                    <i class="bi bi-people-fill me-1"></i>Equipo
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="customers.html">
+                                    <i class="bi bi-chat-quote-fill me-1"></i>Clientes
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center">
+                <small>&copy; 2025 CaféPro. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="mariaModal" tabindex="-1" aria-labelledby="mariaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h1 class="modal-title fs-5" id="mariaModalLabel">
+                        <i class="bi bi-cup-hot me-2"></i>María González - Barista Principal
+                    </h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;" alt="María González">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="text-primary mb-3">Experiencia y Especialidades</h5>
+                            <p><strong>Experiencia:</strong> 8+ años en la industria del café</p>
+                            <p><strong>Certificaciones:</strong> Q Grader Certified, SCA Brewing Certificate</p>
+                            <p><strong>Especialidades:</strong> Tueste artesanal, Latte Art, Catación de café</p>
+                            
+                            <h5 class="text-primary mb-3 mt-4">Sobre María</h5>
+                            <p>María comenzó su carrera como barista en pequeñas cafeterías locales, donde desarrolló su pasión por el café de calidad. Su dedicación la llevó a especializarse en el arte del tueste, viajando a Colombia y Costa Rica para aprender directamente de los productores.</p>
+                            <p>En CaféPro, María lidera nuestro programa de entrenamiento para baristas y supervisa todos los procesos de control de calidad. Su filosofía es que "cada taza cuenta una historia".</p>
+                            
+                            <h5 class="text-primary mb-3 mt-4">Logros Destacados</h5>
+                            <ul>
+                                <li>Ganadora del Campeonato Nacional de Latte Art 2023</li>
+                                <li>Creadora del blend "María's Secret" - nuestro café más vendido</li>
+                                <li>Instructora certificada para más de 200 baristas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#" class="btn btn-primary">
+                        <i class="bi bi-envelope me-1"></i>Contactar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="carlosModal" tabindex="-1" aria-labelledby="carlosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h1 class="modal-title fs-5" id="carlosModalLabel">
+                        <i class="bi bi-gear-fill me-2"></i>Carlos Mendoza - Especialista en Máquinas
+                    </h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;" alt="Carlos Mendoza">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="text-success mb-3">Experiencia Técnica</h5>
+                            <p><strong>Experiencia:</strong> 10+ años en maquinaria de café espresso</p>
+                            <p><strong>Certificaciones:</strong> Técnico Certificado La Marzocco, Reparación Nuova Simonelli</p>
+                            <p><strong>Especialidades:</strong> Calibración de presión, Mantenimiento preventivo, Instalación industrial</p>
+                            
+                            <h5 class="text-success mb-3 mt-4">Trayectoria Profesional</h5>
+                            <p>Carlos inició como técnico electrónico, pero su encuentro con las máquinas de café espresso cambió su carrera. Se especializó en las marcas más prestigiosas como La Marzocco, Synesso y Slayer, convirtiéndose en uno de los técnicos más respetados del país.</p>
+                            <p>Su expertise no solo abarca la reparación, sino también la optimización del rendimiento de cada máquina para extraer el mejor sabor del café.</p>
+                            
+                            <h5 class="text-success mb-3 mt-4">Servicios que Ofrece</h5>
+                            <ul>
+                                <li>Mantenimiento preventivo y correctivo</li>
+                                <li>Instalación de equipos comerciales</li>
+                                <li>Capacitación técnica para operadores</li>
+                                <li>Consultoría en selección de equipos</li>
+                                <li>Servicio de emergencia 24/7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#" class="btn btn-success">
+                        <i class="bi bi-telephone me-1"></i>Solicitar Servicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="robertoModal" tabindex="-1" aria-labelledby="robertoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h1 class="modal-title fs-5" id="robertoModalLabel">
+                        <i class="bi bi-briefcase-fill me-2"></i>Roberto Silva - Gerente de Ventas
+                    </h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/men/65.jpg" class="rounded-circle mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;" alt="Roberto Silva">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="text-info mb-3">Experiencia Comercial</h5>
+                            <p><strong>Experiencia:</strong> 12+ años en ventas B2B</p>
+                            <p><strong>Especialidad:</strong> Cafeterías, Restaurantes, Hoteles, Oficinas corporativas</p>
+                            <p><strong>Logros:</strong> Incremento del 150% en ventas corporativas en los últimos 3 años</p>
+                            
+                            <h5 class="text-info mb-3 mt-4">Enfoque de Ventas</h5>
+                            <p>Roberto no solo vende equipos, crea soluciones completas de café. Su enfoque consultivo le permite entender las necesidades específicas de cada cliente y diseñar propuestas que maximizan tanto la calidad como la rentabilidad.</p>
+                            <p>Ha trabajado con más de 500 empresas, desde pequeñas cafeterías boutique hasta cadenas hoteleras internacionales.</p>
+                            
+                            <h5 class="text-info mb-3 mt-4">Servicios de Consultoría</h5>
+                            <ul>
+                                <li>Análisis de necesidades y volumen de consumo</li>
+                                <li>Diseño de espacios para coffee stations</li>
+                                <li>Planes de financiamiento flexibles</li>
+                                <li>Capacitación del personal cliente</li>
+                                <li>Seguimiento post-venta y soporte</li>
+                            </ul>
+                            
+                            <div class="alert alert-info mt-3">
+                                <i class="bi bi-info-circle me-2"></i>
+                                <strong>¿Necesitas una cotización?</strong> Roberto puede visitarte sin compromiso para evaluar tus necesidades.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#" class="btn btn-info">
+                        <i class="bi bi-calendar-check me-1"></i>Agendar Cita
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="diegoModal" tabindex="-1" aria-labelledby="diegoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h1 class="modal-title fs-5" id="diegoModalLabel">
+                        <i class="bi bi-globe me-2"></i>Diego Ramírez - Sommelier de Café
+                    </h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/men/43.jpg" class="rounded-circle mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;" alt="Diego Ramírez">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="text-danger mb-3">Experiencia Internacional</h5>
+                            <p><strong>Experiencia:</strong> 6+ años viajando por plantaciones de café</p>
+                            <p><strong>Países visitados:</strong> Colombia, Costa Rica, Etiopía, Jamaica, Guatemala, Brasil</p>
+                            <p><strong>Certificaciones:</strong> Q Grader, Coffee Quality Institute, Comercio Justo</p>
+                            
+                            <h5 class="text-danger mb-3 mt-4">Misión Global</h5>
+                            <p>Diego es nuestro embajador del café de origen. Viaja constantemente para establecer relaciones directas con productores, asegurando no solo la mejor calidad, sino también prácticas sostenibles y comercio justo.</p>
+                            <p>Su trabajo va más allá de la selección: documenta las historias detrás de cada grano y educa a nuestros clientes sobre la importancia del origen en el sabor final.</p>
+                            
+                            <h5 class="text-danger mb-3 mt-4">Selecciones Exclusivas</h5>
+                            <ul>
+                                <li><strong>Geisha de Panamá:</strong> Nuestro café más exclusivo y premiado</li>
+                                <li><strong>Blue Mountain de Jamaica:</strong> Suavidad incomparable</li>
+                                <li><strong>Yirgacheffe de Etiopía:</strong> Notas florales únicas</li>
+                                <li><strong>Tarrazú de Costa Rica:</strong> Acidez brillante y cuerpo completo</li>
+                                <li><strong>Huila de Colombia:</strong> Dulzura natural y balance perfecto</li>
+                            </ul>
+                            
+                            <div class="alert alert-warning mt-3">
+                                <i class="bi bi-star-fill me-2"></i>
+                                <strong>Cata Semanal:</strong> Diego dirige catas cada viernes para compartir sus últimos descubrimientos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#" class="btn btn-danger">
+                        <i class="bi bi-cup me-1"></i>Ver Cafés de Origen
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="anaModal" tabindex="-1" aria-labelledby="anaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header text-white" style="background-color: #6f42c1;">
+                    <h1 class="modal-title fs-5" id="anaModalLabel">
+                        <i class="bi bi-megaphone me-2"></i>Ana Torres - Jefa de Marketing
+                    </h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;" alt="Ana Torres">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="mb-3" style="color: #6f42c1;">Experiencia en Marketing</h5>
+                            <p><strong>Experiencia:</strong> 7+ años en marketing digital y eventos</p>
+                            <p><strong>Especialidades:</strong> Marketing digital, Eventos corporativos, Branding, Redes sociales</p>
+                            <p><strong>Formación:</strong> MBA en Marketing, Certificación Google Ads, Especialista en Instagram</p>
+                            
+                            <h5 class="mb-3 mt-4" style="color: #6f42c1;">Estrategias Innovadoras</h5>
+                            <p>Ana ha revolucionado la presencia digital de CaféPro, creando campañas que no solo venden productos, sino que educan sobre la cultura del café. Su enfoque storytelling ha conectado emocionalmente con miles de coffee lovers.</p>
+                            <p>Organiza eventos únicos como "Coffee Cupping Nights" y "Barista Challenges" que han posicionado a CaféPro como líder en experiencias de café.</p>
+                            
+                            <h5 class="mb-3 mt-4" style="color: #6f42c1;">Eventos y Campañas Destacadas</h5>
+                            <ul>
+                                <li><strong>Festival del Café CaféPro:</strong> Evento anual con 5,000+ asistentes</li>
+                                <li><strong>Campaña #MiCaféPerfecto:</strong> 2M+ impresiones en redes sociales</li>
+                                <li><strong>Programa de Lealtad:</strong> 15,000+ miembros activos</li>
+                                <li><strong>Workshops mensuales:</strong> Capacitación gratuita para clientes</li>
+                                <li><strong>Colaboraciones:</strong> Partnerships con influencers gastronómicos</li>
+                            </ul>
+                            
+                            <div class="alert alert-light border" style="border-color: #6f42c1 !important;">
+                                <i class="bi bi-calendar-event me-2" style="color: #6f42c1;"></i>
+                                <strong>Próximo Evento:</strong> Workshop "Latte Art para Principiantes" - Cada primer sábado del mes.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#" class="btn text-white" style="background-color: #6f42c1;">
+                        <i class="bi bi-instagram me-1"></i>Seguir en Redes
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="lauraModal" tabindex="-1" aria-labelledby="lauraModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-secondary text-white">
+                    <h1 class="modal-title fs-5" id="lauraModalLabel">
+                        <i class="bi bi-truck me-2"></i>Laura Pérez - Directora de Operaciones
+                    </h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;" alt="Laura Pérez">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="text-secondary mb-3">Experiencia Operacional</h5>
+                            <p><strong>Experiencia:</strong> 9+ años en logística y cadena de suministro</p>
+                            <p><strong>Especialidades:</strong> Optimización de procesos, Gestión de inventarios, Calidad ISO</p>
+                            <p><strong>Certificaciones:</strong> Six Sigma Black Belt, ISO 9001, Gestión de Almacenes</p>
+                            
+                            <h5 class="text-secondary mb-3 mt-4">Gestión de Excelencia</h5>
+                            <p>Laura supervisa toda la cadena operativa de CaféPro, desde la recepción de café verde hasta la entrega final al cliente. Su enfoque en la mejora continua ha reducido los tiempos de entrega en un 40% y aumentado la satisfacción del cliente al 98%.</p>
+                            <p>Su experiencia previa en empresas multinacionales le permite aplicar los más altos estándares de calidad y eficiencia.</p>
+                            
+                            <h5 class="text-secondary mb-3 mt-4">Áreas de Responsabilidad</h5>
+                            <ul>
+                                <li><strong>Gestión de Inventarios:</strong> Control de stock de 200+ productos</li>
+                                <li><strong>Logística:</strong> Coordinación de envíos nacionales e internacionales</li>
+                                <li><strong>Control de Calidad:</strong> Inspección de productos y empaques</li>
+                                <li><strong>Optimización:</strong> Mejora continua de procesos</li>
+                                <li><strong>Proveedores:</strong> Gestión de relaciones con 50+ proveedores</li>
+                                <li><strong>Sostenibilidad:</strong> Implementación de prácticas eco-friendly</li>
+                            </ul>
+                            
+                            <div class="alert alert-secondary mt-3">
+                                <i class="bi bi-shield-check me-2"></i>
+                                <strong>Garantía de Calidad:</strong> Laura garantiza que el 100% de nuestros productos pasen rigurosos controles de calidad.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#" class="btn btn-dark">
+                        <i class="bi bi-box-seam me-1"></i>Rastrear Pedido
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
